@@ -1,0 +1,24 @@
+{
+<<<<<<< HEAD
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true
+  }
+}
+=======
+    "files": [],
+    "references": [
+      {
+        "path": "./tsconfig.app.json"
+      },
+     
+    ],
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    }
+  }
+  
+>>>>>>> 301c3f6 (Added client main project)
